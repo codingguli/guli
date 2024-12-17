@@ -1,16 +1,17 @@
-import Login from '@/pages/login/login'
+import Index from "@/views/index/index";
+import Login from "@/pages/login/login";
 
 const routes = [
   {
     name: "",
     path: "/",
-    element: <>测试页面</>,
+    element: <Index />,
   },
   {
     name: "",
     path: "/login",
-    element: <Login />
-  }
+    element: <Login />,
+  },
 ];
 
 export default routes;

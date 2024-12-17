@@ -3,7 +3,6 @@ import style from "./login.module.scss";
 
 const Login: React.FC = () => {
   
-
   return (
     <div className={style.login}>
         <div className={style['login-left']}>
