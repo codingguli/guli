@@ -1,0 +1,35 @@
+.login {
+  height: 100%;
+  display: flex;
+  &-left {
+    width: 380px;
+    background: url('@/assets/imgs/png/bg.png');
+    padding: 272px 52px 0;
+    &-content {
+      i {
+        display: block;
+        width: 68px;
+        height: 68px;
+        background: url('@/assets/imgs/png/coffee.png');
+        background-size: 68px 68px;
+        margin-bottom: 40px;
+      }
+      p:nth-of-type(1) {
+        font-size: 42px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 48px;
+        margin-bottom: 20px;
+      }
+      p:nth-of-type(2) {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 28px;
+      }
+    }
+  }
+  &-right {
+    width: calc(100% - 380px);
+  }
+}
